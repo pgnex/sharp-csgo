@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Globals\oofsets.cs" />
     <Compile Include="ModuleGrabber.cs">
       <SubType>Form</SubType>
     </Compile>
