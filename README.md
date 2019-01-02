@@ -4,7 +4,7 @@ Open source C# external cheat to be used as a base for people trying to get into
 
 ## Notes
 
-* This project is still in development as of July 16th, 2018.
+* This project was started Jan 1st, 2018
 
 ## Authors
 
