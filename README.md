@@ -7,14 +7,14 @@ Open source C# external cheat to be used as a base for people trying to get into
 * This project was started Jan 1st, 2018
 * Decided to make everything memey on Jan 1st, 2018
 
-## Authors
+## Developers
 
 * **nex** - [nexzoz](https://github.com/nexzoz)
+* **Jacky Wu** - [qtKite](https://github.com/qtKite)
 
 ## Special mentions
 
 * **Justin Garofolo** - *Some base classes* - [ooojustin](https://github.com/ooojustin)
-* **Jacky Wu** - *Random things* - [qtKite](https://github.com/qtKite)
 * **Lucy** - *qt*
 
 ## License
