@@ -45,17 +45,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="General\formstuff.cs" />
     <Compile Include="Globals\oofsets.cs" />
-    <Compile Include="ModuleGrabber.cs">
+    <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuleGrabber.Designer.cs">
-      <DependentUpon>ModuleGrabber.cs</DependentUpon>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modulegrabber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulegrabber.Designer.cs">
+      <DependentUpon>modulegrabber.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ModuleGrabber.resx">
-      <DependentUpon>ModuleGrabber.cs</DependentUpon>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulegrabber.resx">
+      <DependentUpon>modulegrabber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
-    <Folder Include="General\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1.gif" />

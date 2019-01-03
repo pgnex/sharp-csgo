@@ -13,7 +13,7 @@ namespace luxe_csgo {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ModuleGrabber());
+            Application.Run(new modulegrabber());
         }
     }
 }
