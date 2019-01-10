@@ -47,24 +47,24 @@
   <ItemGroup>
     <Compile Include="General\formstuff.cs" />
     <Compile Include="Globals\oofsets.cs" />
-    <Compile Include="main.cs">
+    <Compile Include="Forms\main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main.Designer.cs">
+    <Compile Include="Forms\main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
-    <Compile Include="modulegrabber.cs">
+    <Compile Include="Forms\modulegrabber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="modulegrabber.Designer.cs">
+    <Compile Include="Forms\modulegrabber.Designer.cs">
       <DependentUpon>modulegrabber.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="main.resx">
+    <EmbeddedResource Include="Forms\main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="modulegrabber.resx">
+    <EmbeddedResource Include="Forms\modulegrabber.resx">
       <DependentUpon>modulegrabber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

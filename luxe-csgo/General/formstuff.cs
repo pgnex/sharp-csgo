@@ -9,6 +9,8 @@ using System.Windows.Forms;
 namespace luxe_csgo.General {
     class formstuff {
 
+
+        // this is for making the form components movable since we arent using an actual window
         private static bool dragging = false;
         private static int xoff = 0, yoff = 0;
 
@@ -29,6 +31,8 @@ namespace luxe_csgo.General {
             dragging = false;
         }
 
+
+        // create events.
         public static void movable(Label label, Form f) {
             label.MouseDown += (s, e) => mousedown(f);
             label.MouseMove += (s, e) => mousemove(f);

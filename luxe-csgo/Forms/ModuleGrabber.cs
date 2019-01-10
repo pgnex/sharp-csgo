@@ -11,7 +11,7 @@ namespace luxe_csgo {
             InitializeComponent();
             formstuff.movable(lblOnii, this);
             formstuff.movable(lblPlss, this);
-            formstuff.movable(panel1, this);
+            formstuff.movable(pnlBackground, this);
             formstuff.movable(pictureBox1, this);
             update_timer.Start();
         }

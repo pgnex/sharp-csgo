@@ -24,27 +24,27 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlBackground = new System.Windows.Forms.Panel();
             this.lblOnii = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblPlss = new System.Windows.Forms.Label();
             this.update_timer = new System.Windows.Forms.Timer(this.components);
-            this.panel1.SuspendLayout();
+            this.pnlBackground.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlBackground
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(18)))), ((int)(((byte)(22)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.lblOnii);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.lblPlss);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(273, 153);
-            this.panel1.TabIndex = 0;
+            this.pnlBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(18)))), ((int)(((byte)(22)))));
+            this.pnlBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlBackground.Controls.Add(this.lblOnii);
+            this.pnlBackground.Controls.Add(this.pictureBox1);
+            this.pnlBackground.Controls.Add(this.lblPlss);
+            this.pnlBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlBackground.Location = new System.Drawing.Point(0, 0);
+            this.pnlBackground.Name = "pnlBackground";
+            this.pnlBackground.Size = new System.Drawing.Size(273, 153);
+            this.pnlBackground.TabIndex = 0;
             // 
             // lblOnii
             // 
@@ -88,13 +88,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(273, 153);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBackground);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "modulegrabber";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlBackground.ResumeLayout(false);
+            this.pnlBackground.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -102,7 +102,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlBackground;
         private System.Windows.Forms.Label lblPlss;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblOnii;
