@@ -24,27 +24,26 @@
         /// </summary>
         private void InitializeComponent() {
             this.pnlBackground = new System.Windows.Forms.Panel();
-            this.pnlTop = new System.Windows.Forms.Panel();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblTabConfigs = new System.Windows.Forms.Label();
+            this.pnlAimbot = new System.Windows.Forms.Panel();
             this.pnlTabAimbot = new System.Windows.Forms.Panel();
             this.lblTabAimbot = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.pnlTabConfigs = new System.Windows.Forms.Panel();
+            this.lblTabConfigs = new System.Windows.Forms.Label();
             this.pnlTabVisuals = new System.Windows.Forms.Panel();
             this.lblTabVisuals = new System.Windows.Forms.Label();
             this.pnlTabTrigger = new System.Windows.Forms.Panel();
             this.lblTabTrigger = new System.Windows.Forms.Label();
             this.pnlTabMisc = new System.Windows.Forms.Panel();
             this.lblTabMisc = new System.Windows.Forms.Label();
-            this.pnlAimbot = new System.Windows.Forms.Panel();
+            this.pnlTop = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.pnlBackground.SuspendLayout();
-            this.pnlTop.SuspendLayout();
             this.pnlTabAimbot.SuspendLayout();
             this.pnlTabConfigs.SuspendLayout();
             this.pnlTabVisuals.SuspendLayout();
             this.pnlTabTrigger.SuspendLayout();
             this.pnlTabMisc.SuspendLayout();
+            this.pnlTop.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBackground
@@ -65,42 +64,17 @@
             this.pnlBackground.Size = new System.Drawing.Size(400, 240);
             this.pnlBackground.TabIndex = 0;
             // 
-            // pnlTop
+            // pnlAimbot
             // 
-            this.pnlTop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlTop.Controls.Add(this.lblTitle);
-            this.pnlTop.Location = new System.Drawing.Point(-1, -4);
-            this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(400, 45);
-            this.pnlTop.TabIndex = 0;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblTitle.Location = new System.Drawing.Point(163, 9);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(72, 29);
-            this.lblTitle.TabIndex = 3;
-            this.lblTitle.Text = "luxe - ";
-            // 
-            // lblTabConfigs
-            // 
-            this.lblTabConfigs.AutoSize = true;
-            this.lblTabConfigs.Font = new System.Drawing.Font("Candara", 12F);
-            this.lblTabConfigs.ForeColor = System.Drawing.Color.White;
-            this.lblTabConfigs.Location = new System.Drawing.Point(9, 10);
-            this.lblTabConfigs.Name = "lblTabConfigs";
-            this.lblTabConfigs.Size = new System.Drawing.Size(59, 19);
-            this.lblTabConfigs.TabIndex = 5;
-            this.lblTabConfigs.Text = "configs";
+            this.pnlAimbot.Location = new System.Drawing.Point(3, 84);
+            this.pnlAimbot.Name = "pnlAimbot";
+            this.pnlAimbot.Size = new System.Drawing.Size(392, 149);
+            this.pnlAimbot.TabIndex = 14;
             // 
             // pnlTabAimbot
             // 
             this.pnlTabAimbot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlTabAimbot.Controls.Add(this.lblTabAimbot);
-            this.pnlTabAimbot.Controls.Add(this.label4);
             this.pnlTabAimbot.Location = new System.Drawing.Point(-2, 40);
             this.pnlTabAimbot.Name = "pnlTabAimbot";
             this.pnlTabAimbot.Size = new System.Drawing.Size(78, 40);
@@ -117,13 +91,6 @@
             this.lblTabAimbot.TabIndex = 6;
             this.lblTabAimbot.Text = "aimbot";
             // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
-            this.label4.TabIndex = 1;
-            // 
             // pnlTabConfigs
             // 
             this.pnlTabConfigs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -132,6 +99,17 @@
             this.pnlTabConfigs.Name = "pnlTabConfigs";
             this.pnlTabConfigs.Size = new System.Drawing.Size(78, 40);
             this.pnlTabConfigs.TabIndex = 13;
+            // 
+            // lblTabConfigs
+            // 
+            this.lblTabConfigs.AutoSize = true;
+            this.lblTabConfigs.Font = new System.Drawing.Font("Candara", 12F);
+            this.lblTabConfigs.ForeColor = System.Drawing.Color.White;
+            this.lblTabConfigs.Location = new System.Drawing.Point(9, 10);
+            this.lblTabConfigs.Name = "lblTabConfigs";
+            this.lblTabConfigs.Size = new System.Drawing.Size(59, 19);
+            this.lblTabConfigs.TabIndex = 5;
+            this.lblTabConfigs.Text = "configs";
             // 
             // pnlTabVisuals
             // 
@@ -193,12 +171,25 @@
             this.lblTabMisc.TabIndex = 5;
             this.lblTabMisc.Text = "misc";
             // 
-            // pnlAimbot
+            // pnlTop
             // 
-            this.pnlAimbot.Location = new System.Drawing.Point(3, 84);
-            this.pnlAimbot.Name = "pnlAimbot";
-            this.pnlAimbot.Size = new System.Drawing.Size(392, 149);
-            this.pnlAimbot.TabIndex = 14;
+            this.pnlTop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlTop.Controls.Add(this.lblTitle);
+            this.pnlTop.Location = new System.Drawing.Point(-1, -4);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(400, 45);
+            this.pnlTop.TabIndex = 0;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblTitle.Location = new System.Drawing.Point(121, 9);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(157, 29);
+            this.lblTitle.TabIndex = 3;
+            this.lblTitle.Text = "luxe - external";
             // 
             // main
             // 
@@ -211,8 +202,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "main";
             this.pnlBackground.ResumeLayout(false);
-            this.pnlTop.ResumeLayout(false);
-            this.pnlTop.PerformLayout();
             this.pnlTabAimbot.ResumeLayout(false);
             this.pnlTabAimbot.PerformLayout();
             this.pnlTabConfigs.ResumeLayout(false);
@@ -223,6 +212,8 @@
             this.pnlTabTrigger.PerformLayout();
             this.pnlTabMisc.ResumeLayout(false);
             this.pnlTabMisc.PerformLayout();
+            this.pnlTop.ResumeLayout(false);
+            this.pnlTop.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -233,7 +224,6 @@
         private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Panel pnlTabAimbot;
         private System.Windows.Forms.Label lblTabAimbot;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel pnlTabConfigs;
         private System.Windows.Forms.Label lblTabConfigs;
         private System.Windows.Forms.Panel pnlTabVisuals;

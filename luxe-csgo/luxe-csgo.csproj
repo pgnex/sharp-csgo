@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="General\formstuff.cs" />
+    <Compile Include="General\memory.cs" />
     <Compile Include="Globals\oofsets.cs" />
     <Compile Include="Forms\main.cs">
       <SubType>Form</SubType>

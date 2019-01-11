@@ -36,6 +36,10 @@ namespace luxe_csgo {
             // done. lets gather offsets.
             oofsets.setoofsets();
 
+            // lets initialize our memory class now
+            memory.Initialize("csgo");
+
+            // stop timer after passing previus checks. create our main form.
             update_timer.Stop();
             Form main = new main();
             main.Show();

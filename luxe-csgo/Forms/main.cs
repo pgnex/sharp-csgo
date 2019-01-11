@@ -1,4 +1,5 @@
-﻿using System;
+﻿using luxe_csgo.Globals;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,5 +14,6 @@ namespace luxe_csgo {
         public main() {
             InitializeComponent();
         }
+
     }
 }

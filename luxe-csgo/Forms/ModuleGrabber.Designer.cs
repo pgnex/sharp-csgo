@@ -49,11 +49,11 @@
             // lblOnii
             // 
             this.lblOnii.AutoSize = true;
-            this.lblOnii.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOnii.Font = new System.Drawing.Font("Candara", 15.75F);
             this.lblOnii.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblOnii.Location = new System.Drawing.Point(79, 16);
+            this.lblOnii.Location = new System.Drawing.Point(91, 16);
             this.lblOnii.Name = "lblOnii";
-            this.lblOnii.Size = new System.Drawing.Size(113, 25);
+            this.lblOnii.Size = new System.Drawing.Size(102, 26);
             this.lblOnii.TabIndex = 2;
             this.lblOnii.Text = "onii-chan~";
             // 
@@ -70,11 +70,11 @@
             // lblPlss
             // 
             this.lblPlss.AutoSize = true;
-            this.lblPlss.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlss.Font = new System.Drawing.Font("Candara", 15.75F);
             this.lblPlss.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblPlss.Location = new System.Drawing.Point(23, 47);
+            this.lblPlss.Location = new System.Drawing.Point(35, 47);
             this.lblPlss.Name = "lblPlss";
-            this.lblPlss.Size = new System.Drawing.Size(225, 25);
+            this.lblPlss.Size = new System.Drawing.Size(201, 26);
             this.lblPlss.TabIndex = 0;
             this.lblPlss.Text = "p-pls open csgo.. >//<";
             // 
