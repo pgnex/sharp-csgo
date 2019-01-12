@@ -115,6 +115,9 @@ namespace luxe_csgo.Globals {
             setoofset("dwppDirect3DDevice9", ref signatures.dwppDirect3DDevice9);
             setoofset("dwSetClanTag", ref signatures.dwSetClanTag);
             setoofset("m_pStudioHdr", ref signatures.m_pStudioHdr);
+            setoofset("m_bDormant", ref signatures.m_bDormant);
+            setoofset("m_iFOV", ref netvars.m_iFOV);
+            setoofset("m_clrRender", ref netvars.m_clrRender);
             // Done setting offsets.
         }
 
@@ -131,6 +134,10 @@ namespace luxe_csgo.Globals {
         }
     }
 
+
+    class luxe {
+        public static int local_player;
+    }
 
 
     class basevaluwus {
@@ -213,6 +220,10 @@ namespace luxe_csgo.Globals {
         public static int m_vecVelocity;
         public static int m_vecViewOffset;
         public static int m_viewPunchAngle;
+
+        // these arent in hazedumper so lets just hardcode them ;3
+        public static int m_iItemIDLow = 0x2fa4;
+        public static int m_bInBuyZone = 0x38d1;
     }
     public static class signatures {
         public static int clientstate_choked_commands;

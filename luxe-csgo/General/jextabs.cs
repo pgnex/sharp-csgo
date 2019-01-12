@@ -41,7 +41,6 @@ class JexTabs {
             pnlTab.BackColor = System.Drawing.Color.FromArgb(32, 34, 44);
             pnlMain.Visible = true;
         }
-
     }
 
     List<JexTab> tabList;

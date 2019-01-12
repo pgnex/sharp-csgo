@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\misc.cs" />
     <Compile Include="General\formstuff.cs" />
     <Compile Include="General\memory.cs" />
     <Compile Include="General\jextabs.cs" />
@@ -92,9 +93,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Features\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\1.gif" />
   </ItemGroup>
