@@ -13,6 +13,15 @@ namespace luxe_csgo {
     public partial class main : Form {
         public main() {
             InitializeComponent();
+
+            JexTabs tabs;
+            tabs = new JexTabs();
+            tabs.AddTab(pnlAimbot, pnlTabAimbot, lblTabAimbot);
+            tabs.AddTab(pnlVisuals, pnlTabVisuals, lblTabVisuals);
+            tabs.AddTab(pnlTrigger, pnlTabTrigger, lblTabTrigger);
+            tabs.AddTab(pnlMisc, pnlTabMisc, lblTabMisc);
+            tabs.AddTab(pnlConfigs, pnlTabConfigs, lblTabConfigs);
+            tabs.Initialized();
         }
 
     }
