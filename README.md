@@ -12,7 +12,7 @@ Open source C# external cheat to be used as a base for people trying to get into
 ## Developers
 
 * **nex** - [nexzoz](https://github.com/nexzoz)
-* **Jacky Wu** - [qtKite](https://github.com/qtKite)
+* **kite** - [qtKite](https://github.com/qtKite)
 
 ## Special mentions
 
