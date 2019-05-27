@@ -17,7 +17,6 @@ Open source C# external cheat to be used as a base for people trying to get into
 ## Special mentions
 
 * **Justin Garofolo** - *Some base classes* - [ooojustin](https://github.com/ooojustin)
-* **Lucy** - *qt*
 
 ## License
 
