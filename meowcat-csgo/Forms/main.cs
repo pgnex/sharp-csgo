@@ -30,8 +30,8 @@ namespace luxe_csgo {
             tabs.AddTab(pnlConfigs, pnlTabConfigs, lblTabConfigs);
             tabs.Initialized();
 
-            Thread t = new Thread(misc.refresh_info);
-            t.Start();
+            Thread refresh_thread = new Thread(misc.refresh_info);
+            refresh_thread.Start();
 
             Thread bhop_thread = new Thread(misc.bunny_hop);
             bhop_thread.Start();
