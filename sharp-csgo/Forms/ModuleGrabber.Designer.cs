@@ -59,7 +59,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::luxe_csgo.Properties.Resources._1;
+            this.pictureBox1.Image = global::sharp_csgo.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(85, 75);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(109, 81);
